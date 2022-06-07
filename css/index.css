@@ -1,0 +1,127 @@
+@import url(common.css);
+
+
+
+.musinsa{
+    padding: 0;
+    
+    margin: auto;
+    width: 1410px;
+}
+.main1{  
+    text-align: center;
+}
+.main1>p>img{
+    width: 100%;
+}
+
+
+.musinsa>div:nth-child(2){
+    display: flex;
+    margin:40px 0;
+}
+
+.musinsa>div:nth-child(2)>div{
+    width: 50%;
+    position: relative;
+}
+
+.musinsa>div:nth-child(2) .main2>p:nth-child(2){
+    position: absolute;
+    font-size: 90px;
+    color: blue;
+    left: 50px;
+    top:130px;
+}
+.musinsa>div:nth-child(2) .main3{
+    text-align: right;
+}
+
+.musinsa>div:nth-child(2) .main3>p:nth-child(2){
+    position: absolute;
+    font-size: 50px;
+    writing-mode: vertical-rl; text-orientation: mixed; 
+    rotate: 90%;
+}
+
+
+
+
+
+/* rank */
+.rank{width:1410px;
+    padding: 0;
+    margin: 200px auto;
+
+}
+
+h3{
+    font-size: 32px;
+
+} 
+div.rank>ul{width:100%; display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+}
+div.rank>ul>li{ position: relative;  margin:20px 0;
+    width: 17%;
+    
+}
+.rank>ul>li>p{}
+.rank>ul>li>p>img{
+    width: 100%;
+    }
+.rank>ul>li>b{position: absolute; left: 0; top: 10px;
+    font-size: 50px;
+    opacity: 30%;
+
+}
+.rank>ul>li:hover>b{
+    opacity: 100%;
+}
+
+
+
+/* magazine */
+.magazine{ width: 1410px;
+    padding: 0;
+    margin: 200px auto;
+    
+}
+.magazine>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.magazine1{}
+.magazine1>b{}
+.magazine1>p{}
+.magazine1>p>img{}
+
+
+
+
+
+
+
+.magazine2{}
+.magazine2>b{}
+.magazine2>p{}
+.magazine2>p>img{}
+
+.magazine3{}
+.magazine3>b{}
+.magazine3>p{}
+.magazine3>p>img{}
+
+
+.brand{
+    display: flex;
+    justify-content: center;
+    width: 1410px;margin: 0 auto;
+}
+
+.brand>a{margin: 0 auto;}
